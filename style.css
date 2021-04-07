@@ -1,0 +1,81 @@
+body {
+  background-color: #1b1717;
+  padding: 7% 12%;
+  display: flex;
+  font-family: ubuntu;
+}
+
+.box {
+  width: 300px;
+  height: 375px;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 2.5px grey;
+  margin: 25px;
+  z-index: 0;
+}
+.gold {
+  color: gold;
+  padding-top: 20px;
+}
+
+.tag {
+  transform: rotate(90deg);
+}
+.large {
+  color: white;
+  position: absolute;
+  top: 205px;
+  left: 320px;
+  transform: rotate(90deg);
+}
+.btn {
+  margin-top: 10px;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: white;
+  z-index: 1;
+  margin-top: 25px;
+}
+.row {
+  position: relative;
+  left: 25px;
+}
+.gift {
+  margin-top: 30px;
+}
+
+.discount {
+  margin-bottom: 0;
+}
+.circle {
+  position: absolute;
+  bottom: 215px;
+  right: 602px;
+  height: 75px;
+  width: 275px;
+  border-radius: 50px;
+  background-color: red;
+  z-index: -1;
+}
+.promo {
+  border: dashed white 5px;
+  width: 150px;
+  position: relative;
+  left: 77px;
+}
+
+.nike {
+  width: 55%;
+}
+
+.pad {
+  padding: 15px;
+}
